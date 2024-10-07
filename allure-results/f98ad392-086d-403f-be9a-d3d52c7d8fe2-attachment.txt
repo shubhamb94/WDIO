@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": ".//following-sibling::a/div[@class=\"product-imageSliderContainer\"]"
+}

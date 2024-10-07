@@ -4,7 +4,7 @@
   "description": "webdriver automation",
   "main": "index.js",
   "scripts": {
-    "test": "wdio run wdio.conf.js",
+    "myntra": "wdio run wdio.conf.js",
     "wdio": "wdio run ./wdio.conf.js"
   },
   "author": "shubham bhowmick",
@@ -23,6 +23,7 @@
     "webdriverio": "^9.0.9"
   },
   "dependencies": {
-    "@wdio/cli": "^9.0.9"
+    "@wdio/cli": "^9.0.9",
+    "@wdio/selenium-standalone-service": "^8.15.0"
   }
 }

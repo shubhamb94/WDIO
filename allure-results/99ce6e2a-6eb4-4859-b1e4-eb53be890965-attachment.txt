@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@class=\"size-buttons-buttonContainer\"]/button[not(contains(@class, \"disabled\"))]"
+}

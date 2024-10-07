@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": ".//ancestor::div[contains(@class, \"filter-search-filterSearchBox\")]//following-sibling::ul[contains(@class, \"brand-list\")]/li"
+}

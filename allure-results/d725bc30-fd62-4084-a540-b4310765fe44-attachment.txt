@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "(//div[@class=\"vertical-filters-filters\"]/ul/li/label/input[@type=\"radio\"])[1]"
+}

@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "a[@class=\"CGtC98\"] div:nth-child(2) div.KzDlHZ"
+}

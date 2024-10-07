@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": ".//section/ul[@class=\"results-base\"]/li"
+}

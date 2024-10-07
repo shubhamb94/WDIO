@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//iframe[@title='Widget containing a Cloudflare security challenge']"
+}

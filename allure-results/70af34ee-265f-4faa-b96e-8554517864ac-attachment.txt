@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": ".//label[contains(., 'Allen Solly')]/text()[1]\n"
+}

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": ".//section/ul/li/div[@class=\"product-ratingsContainer\"]/span"
+}

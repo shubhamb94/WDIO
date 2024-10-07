@@ -22,7 +22,7 @@ exports.config = {
     // of the config file unless it's absolute.
     //
     specs: [
-        './test/specs/**/blazemeter.js'
+        './myntra/specs/**/*.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -52,8 +52,19 @@ exports.config = {
     //
     capabilities: [{
         // capabilities for local browser web tests
-        browserName: 'chrome' // or "firefox", "microsoftedge", "safari"
+        browserName: 'chrome',
+        'goog:chromeOptions': {
+        args: ['--disable-gpu', '--window-size=1920,1080'],
+        prefs: {
+            'profile.default_content_setting_values.notifications': 1 // 1 for allow, 2 for block this is for chromepopup noti
+        }
+        
+    } // or "firefox", "microsoftedge", "safari"
     }],
+    // capabilities: [{
+  
+    //         browserName: 'firefox',
+    // }],
 
     //
     // ===================
@@ -89,12 +100,12 @@ exports.config = {
     // baseUrl: 'http://localhost:8080',
     //
     // Default timeout for all waitFor* commands.
-    waitforTimeout: 10000,
+    waitforTimeout: 120000,
     //
     // Default timeout in milliseconds for request
     // if browser driver or grid doesn't send response
     connectionRetryTimeout: 120000,
-    //
+    
     // Default request retries count
     connectionRetryCount: 3,
     //
@@ -103,6 +114,10 @@ exports.config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
     services: [['chromedriver', { chromedriverCustomPath: '/opt/homebrew/bin/chromedriver' }],],
+    //services :['selenium-standalone'],
+
+    //services: ['selenium-standalone'],
+
 
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -131,7 +146,7 @@ exports.config = {
     // See the full list at http://mochajs.org/
     mochaOpts: {
         ui: 'bdd',
-        timeout: 60000
+        timeout: 120000
     },
 
     //

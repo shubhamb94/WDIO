@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@class='size-buttons-size-buttons']//div[2]//div[1]//button"
+}

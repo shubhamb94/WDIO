@@ -1,0 +1,43 @@
+{
+  "id": {
+    "sessionId": "d9c07e2a306781123b7aebd1733653f9",
+    "error": {},
+    "selector": "//iframe[@title='Widget containing a Cloudflare security challenge']",
+    "parent": {
+      "sessionId": "d9c07e2a306781123b7aebd1733653f9",
+      "capabilities": {
+        "acceptInsecureCerts": false,
+        "browserName": "chrome",
+        "browserVersion": "129.0.6668.70",
+        "chrome": {
+          "chromedriverVersion": "128.0.6613.86 (3045ed680fdab64f784f3b366cfe74adbdf6ff01-refs/branch-heads/6613@{#1337})",
+          "userDataDir": "/var/folders/_f/d27fy5y54nzfsc5hzg664_g80000gn/T/.org.chromium.Chromium.Rwo7ts"
+        },
+        "fedcm:accounts": true,
+        "goog:chromeOptions": {
+          "debuggerAddress": "localhost:62526"
+        },
+        "networkConnectionEnabled": false,
+        "pageLoadStrategy": "normal",
+        "platformName": "mac",
+        "proxy": {},
+        "setWindowRect": true,
+        "strictFileInteractability": false,
+        "timeouts": {
+          "implicit": 0,
+          "pageLoad": 300000,
+          "script": 30000
+        },
+        "unhandledPromptBehavior": "dismiss and notify",
+        "webSocketUrl": "ws://localhost:9515/session/d9c07e2a306781123b7aebd1733653f9",
+        "webauthn:extension:credBlob": true,
+        "webauthn:extension:largeBlob": true,
+        "webauthn:extension:minPinLength": true,
+        "webauthn:extension:prf": true,
+        "webauthn:virtualAuthenticators": true
+      }
+    },
+    "isReactElement": false,
+    "isShadowElement": false
+  }
+}

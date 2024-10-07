@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": ".//following-sibling::ul[contains(@class, \"brand-list\")]/li"
+}
